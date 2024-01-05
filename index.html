@@ -28,24 +28,49 @@
             <img src="images/search.png" alt="search image">
             <input type="text" placeholder="Search">
         </div>
-        <div class="nav-user-icon online">
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
             <img src="images/profile-pic.png" alt="profile-pic">
         </div>
     </div>
     <!-- Settings-menu -->
     <div class="settings-menu">
-        <div class="user-profile">
-            <img src="images/profile.png" alt="profile image">
-            <div>
-                <p>Shubham</p>
-                <a href="#">See your profile</a>
-            </div>
+
+        <div id="dark-btn">
+            <span></span>
         </div>
-        <div class="user-profile">
-            <img src="images/feedback.png" alt="profile image">
-            <div>
-                <p>Give Feedback</p>
-                <a href="#">Help us to improve the new design</a>
+
+        <div class="settingd-menu-inner">
+            <div class="user-profile">
+                    <img src="images/profile.png" alt="profile image">
+                <div>
+                    <p>Shubham</p>
+                    <a href="#">See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="images/feedback.png" alt="profile image">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+            <div class="setting-links">
+                <img src="images/setting.png" alt="setting img" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/help.png" alt="setting img" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/display.png" alt="setting img" class="settings-icon">
+                <a href="#">Display $ Accessibility <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/logout.png" alt="setting img" class="settings-icon">
+                <a href="#">Logout <img src="images/arrow.png" alt="" width="10px"></a>
             </div>
         </div>
     </div>
@@ -308,5 +333,7 @@
 <div class="footer">
     <p>Copyright 2023 - Shubham</p>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>

@@ -519,3 +519,28 @@ nav{
     background: #e4e6eb;
     color: #000;
 }
+.pd-right{
+    text-align: right;
+}
+.pd-right a{
+    background: #e4e6eb;
+    border-radius: 3px;
+    padding: 12px;
+    display: inline-flex;
+    margin-top: 30px;
+}
+.pd-right a img{
+    width: 20px;
+}
+.profile-info{
+    display: flex;
+    align-self: flexadd -start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.info-col{
+    flex-basis: 33%;
+}
+.post-col{
+    flex-basis: 65%;
+}

@@ -123,6 +123,10 @@ nav{
     color: #626262;
     width: fit-content;
 }
+.profile-pic{
+    width: 30px;
+    border-radius: 50%;
+}
 .imp-links a img{
     width: 25px;
     margin-right: 15px;

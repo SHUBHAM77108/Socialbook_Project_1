@@ -93,22 +93,25 @@ nav{
 .container{
     display: flex;
     justify-content: space-around;
-    padding: 13px 5%;
+    padding: 13px 1%;
 }
 .left-sidebar{
     flex-basis: 25%;
     position: sticky;
     top: 70px;
+    padding: 10px;
+    margin-right: 7%;
     align-self: flex-start;
 
 }
 .right-sidebar{
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
     padding: 20px;
+    margin-left: 7%;
     border-radius: 4px;
     color: #626262;
 }
@@ -123,13 +126,26 @@ nav{
     color: #626262;
     width: fit-content;
 }
-.profile-pic{
-    width: 30px;
+#profile-pic{
+    width: 35px;
     border-radius: 50%;
 }
 .imp-links a img{
-    width: 25px;
+    width: 30px;
     margin-right: 15px;
+}
+.imp-links a span{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #d8dadf;
+}
+.imp-links a span img{
+    position: relative;
+    top: 2px;
+    left: 9px;
+    width: 18px;
 }
 .imp-links a:last-child{
     color: #1876f2;

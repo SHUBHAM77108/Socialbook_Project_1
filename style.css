@@ -28,27 +28,31 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--nav-color);
-    padding: 5px 5%;
+    background: #ffffff;
+    padding: 5px 1%;
     position: sticky;
     top: 0;
     z-index: 100;
 }
 .logo{
-    width: 160px;
-    margin-right: 45px;
+    width: 55px;
+    margin-right: 10px;
 }
 .nav-left, .nav-right{
     display: flex;
     align-items: center;
 }
-.nav-left ul li {
+.nav-right ul li {
     list-style: none;
     display: inline-block;
 }
-.nav-left ul li img{
-    width: 28px;
-    margin: 0 15px;
+.nav-right ul li img{
+    width: 40px;
+    margin-right: 10px;
+}
+.nav-main img{
+    width: 25px;
+    margin-right: 100px;
 }
 .nav-user-icon img{
     width: 40px;
@@ -56,7 +60,7 @@ nav{
     cursor: pointer;
 }
 .nav-user-icon{
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 .online{
     position: relative;
@@ -74,7 +78,7 @@ nav{
 }
 .search-box{
     background: #efefef;
-    width: 350px;
+    width: 250px;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -125,6 +129,10 @@ nav{
     margin-bottom: 30px;
     color: #626262;
     width: fit-content;
+}
+.imp-links a:hover{
+    background: #9a9a9a;
+    width: 100%;
 }
 #profile-pic{
     width: 35px;
@@ -243,8 +251,8 @@ nav{
     margin-bottom: 20px;
 }
 .story{
-    flex-basis: 18%;
-    padding-top: 32%;
+    flex-basis: 23%;
+    padding-top: 40%;
     position: relative;
     background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-1.png);
     background-position: center;

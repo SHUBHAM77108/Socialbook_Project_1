@@ -138,6 +138,7 @@ nav{
     display: flex;
     width: 35px;
     height: 35px;
+    margin-right: 15px;
     border-radius: 50%;
     background: #d8dadf;
 }

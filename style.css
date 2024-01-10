@@ -52,7 +52,12 @@ nav{
 }
 .nav-main img{
     width: 25px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.nav-main img:last-child{
+    margin-right: 11rem;
 }
 .nav-user-icon img{
     width: 40px;
@@ -103,7 +108,7 @@ nav{
     flex-basis: 25%;
     position: sticky;
     top: 70px;
-    padding: 10px;
+    /* padding: 10px; */
     margin-right: 7%;
     align-self: flex-start;
 
@@ -126,13 +131,19 @@ nav{
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 18px; */
     color: #626262;
-    width: fit-content;
+    width: 100%;
+    height: 3.5rem;
+    padding-left: 10px;
+}
+.imp-links a:last-child{
+    margin-bottom: 8px;
 }
 .imp-links a:hover{
-    background: #9a9a9a;
+    background: #e4e6e9;
     width: 100%;
+    border-radius: 5px;
 }
 #profile-pic{
     width: 35px;
@@ -177,6 +188,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 18px;
+    padding-left: 10px;
 }
 .right-sidebar h4{
     font-weight: 600;
@@ -190,7 +202,15 @@ nav{
 .event{
     display: flex;
     font-size: 14px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    padding: 8px 0px 8px 10px;
+}
+.event-last{
+    margin-bottom: 15px;
+}
+.event:hover{
+    background-color: #e4e6e9;
+    border-radius: 5px;
 }
 .left-event{
     border-radius: 10px;
@@ -225,12 +245,25 @@ nav{
     width: 100%;
     margin-bottom: 20px;
     border-radius: 4px;
+    padding: 10px;
+}
+.sidebar-ads:hover{
+    background-color: #e4e6e9;
+    border-radius: 5px;
 }
 .online-list{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-
+    /* margin-bottom: 20px; */
+    padding: 5px 0px 5px 10px;
+}
+.online-list:hover{
+    background-color: #e4e6e9;
+    border-radius: 5px;
+}
+.shortcut-links a:hover{
+    background-color: #e4e6e9;
+    border-radius: 5px;
 }
 .online-list .online img{
     width: 40px;

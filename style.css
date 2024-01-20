@@ -709,6 +709,9 @@ nav{
     .profile-container{
         width: 10%;
     }
+    .profile-details{
+        width: 100%;
+    }
 }
 @media(max-width: 900px){
     nav{
